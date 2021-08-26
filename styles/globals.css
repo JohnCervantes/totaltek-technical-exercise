@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  @apply bg-gray-100;
+}
+
+a {
+  @apply text-blue-300;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navigation {
+  @apply w-screen bg-gray-300 h-[50px] bg-black text-white text-lg p-2;
+}
+
+.input-zipcode {
+  @apply focus:outline-none focus:ring focus:border-blue-300 h-[50px] sm:w-[200px] p-5 mb-3;
+}
+
+.main-container {
+  @apply justify-center w-screen flex p-3 flex-col items-center;
+}
+
+.weather-container {
+  @apply bg-white w-[300px] h-[400px] rounded-lg shadow-lg flex flex-col items-center relative;
+}
+
+.form-submit {
+  @apply bg-green-400 p-3 text-white mt-2 sm:mt-0 w-[100px] hover:cursor-pointer rounded-md border-[1px] hover:border-black;
+}
+
+.center {
+  @apply flex w-full h-full justify-center  items-center;
+}
+
+label {
+  @apply mr-5;
+}
+
+select {
+  @apply h-[50px] p-2;
+}
+
+.hover-trigger .hover-target {
+  display: none;
+}
+
+.hover-trigger:hover .hover-target {
+  display: block;
+}
+
+form {
+  @apply flex flex-col sm:flex-row items-center sm:items-start;
+}
