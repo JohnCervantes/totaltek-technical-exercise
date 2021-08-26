@@ -152,6 +152,7 @@ export default function Home() {
                 src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
                 width="150"
                 height="150"
+                quality="100"
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
                 alt="Image status of the current weather"

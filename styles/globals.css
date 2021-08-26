@@ -48,7 +48,7 @@ label {
 }
 
 select {
-  @apply h-[50px] p-2;
+  @apply h-[50px] p-2 focus:outline-none focus:ring focus:border-blue-300;
 }
 
 .hover-trigger .hover-target {
