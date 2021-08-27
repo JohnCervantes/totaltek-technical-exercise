@@ -7,7 +7,7 @@
 ## Technologies used: 
 
 + back-end - Next.js, React, Tailwind CSS
-+ API - Axios
++ API - Axios, OpenWeather
 + Database - N/A
 + CI/CD - Vercel hosting
 
